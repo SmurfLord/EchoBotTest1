@@ -1,0 +1,52 @@
+{
+    "name": "EchoBot1Test1234",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "tenantId": "bea229b6-7a08-4086-b44c-71f57f716bdb",
+            "subscriptionId": "ac4a5747-1328-4bbd-aba5-792c2eaa7050",
+            "resourceGroup": "Swunderfull",
+            "serviceName": "EchoBot1Test1234",
+            "name": "EchoBot1Test1234",
+            "id": "1",
+            "appId": "acccc631-bc0f-42b4-9158-bbde85e12ea2"
+        },
+        {
+            "type": "blob",
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=echobot1test1234a343;AccountKey=8IcdsM3I1fyy5PEM7dwSL+OagJ5PYinE+TrhIU63WsD57Pgtu8C5hN9AV5OWe/RslHOk9sja1V6c2k1/BkciHQ==;",
+            "tenantId": "bea229b6-7a08-4086-b44c-71f57f716bdb",
+            "subscriptionId": "ac4a5747-1328-4bbd-aba5-792c2eaa7050",
+            "resourceGroup": "Swunderfull",
+            "serviceName": "echobot1test1234a343",
+            "id": "2"
+        },
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "name": "development",
+            "id": "3"
+        },
+        {
+            "type": "endpoint",
+            "appId": "acccc631-bc0f-42b4-9158-bbde85e12ea2",
+            "appPassword": "NSaVGH:vg$1TriKloF((:05B8^M23%",
+            "endpoint": "https://echobot1test1234.azurewebsites.net/api/messages",
+            "name": "production",
+            "id": "4"
+        },
+        {
+            "type": "luis",
+            "appId": "9da32832-98bf-4ebe-9fe7-4ea9aa9cba68",
+            "authoringKey": "578cf583032c401596100d7edbe2ebba",
+            "version": "0.1",
+            "region": "westus",
+            "name": "BasicBotLuisApplication",
+            "id": "5"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0"
+}
